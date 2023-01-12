@@ -6,12 +6,14 @@
   color: #FFF;
 }
 
+
 .header__lang:not(:last-child) {
   margin-right: 18px;
 }
 
 @media screen and (max-width: 425px) {
-  .header__lang-link {
+  .header__lang{
+    max-width: 22px;
     font-size: 18px;
     line-height: 20px;
   }
